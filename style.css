@@ -207,6 +207,10 @@ section .project img{
     font-family: Arial, Helvetica, sans-serif;
   }
 
+ #search{
+    display: none;
+  }
+
   .hiden{
     display: none;
   }
