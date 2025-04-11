@@ -324,7 +324,7 @@ section .project img{
      }
   }
 
-  @media (max-width: 640px) {
+ @media (max-width: 640px) {
     .main h1{
         font-size: 25px;
     }
@@ -335,4 +335,128 @@ section .project img{
         padding: 0.5rem 0.7rem;
         font-size: 13px;
      }
+
+     nav{
+      padding: 0.2rem;
+     }
+  }
+
+  @media  (max-width: 500px){
+    nav{
+      justify-content: none;
+      padding: 0.3rem;
+    }
+    .main-left{
+      padding: 1rem;
+    }
+  }
+
+  @media  (max-width: 360px){
+
+ 
+    nav{
+   justify-content: space-between;
+   padding: 0;
+   margin: 0;
+    }
+
+    .nav-left{
+      font-size: 10px;
+    }
+
+    #search{
+      display: block;
+      width: 50px;
+      height: 50px;
+      background: none;
+      border: none;
+      font-size: 18px;
+    }
+
+    .nav-right{
+      display: none !important;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      position: absolute;
+      top: 0;
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px); 
+      font-weight: 800;
+      gap: 10px !important;
+      height: 20vh;
+    }
+
+    .nav-right a{
+      border: solid aqua;
+      background: #000;
+      color: aqua;
+      width: 50%;
+      display: flex;
+      justify-content: center;
+    }
+
+    .main-left{
+      padding: 5px !important;
+    }
+
+    .main-left h1{
+      font-size: 20px;
+    }
+
+    .main-left h3{
+      font-size: 12px;
+    }
+
+    .main-left p{
+      font-size: 10px;
+    }
+
+    .main-right img{
+      width: 200px;
+      right: 0;
+      position: absolute;
+    }
+
+    .project{
+      min-height: 30vh;
+      padding: 0 !important;
+    }
+
+    .project h2{
+      font-size: 30px !important;
+    }
+
+    .project p{
+      font-size: 17px !important;
+    }
+
+    .project img{
+      width: 200px !important;
+      height: 200px !important;
+    }
+
+    .project .view-project{
+      padding: 10px !important;
+      border:4px solid #FDC435 !important;
+      box-shadow: 2px 2px 5px;
+      border-radius: 0% !important;
+    }
+
+    .ft-contact{
+      padding: 0 !important;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .ft-contact input{
+      width: 20vh;
+    }
+
+    .ft-contact textarea{
+      width: 20vh;
+    }
   }
