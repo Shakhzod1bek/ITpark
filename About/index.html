@@ -82,6 +82,20 @@
         <p>Madelyn Troff 2025</p>
         <img src="../image/Vector.png">
     </footer>
-</body>
 
+     <script>
+        document.addEventListener("DOMContentLoaded", function() {
+          const searchBtn = document.getElementById("search");
+          const navRight = document.querySelector(".nav-right");
+      
+          searchBtn.addEventListener("click", function() {
+            if (navRight.style.display === "flex") {
+              navRight.style.display = "none";
+            } else {
+              navRight.style.display = "flex";
+            }
+          });
+        });
+      </script>
+</body>
 </html>
