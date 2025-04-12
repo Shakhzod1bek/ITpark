@@ -266,7 +266,11 @@ section .project img{
   }
 
   @media (max-width: 970px) {
-    
+
+      .project p,h2{
+        margin: 0 !important;
+    }
+      
     .hiden{
         display: block;
       }
@@ -346,6 +350,9 @@ section .project img{
   }
 
   @media  (max-width: 500px){
+      .about-img{
+    width: 330px;
+        }
     nav{
       justify-content: none;
       padding: 0.3rem;
